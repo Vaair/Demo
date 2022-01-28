@@ -9,23 +9,153 @@
 /* Begin PBXBuildFile section */
 		3AA426AD27A441AA0035CC59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA426AC27A441AA0035CC59 /* AppDelegate.swift */; };
 		3AA426AF27A441AA0035CC59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA426AE27A441AA0035CC59 /* SceneDelegate.swift */; };
-		3AA426B127A441AA0035CC59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA426B027A441AA0035CC59 /* ViewController.swift */; };
-		3AA426B427A441AA0035CC59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426B227A441AA0035CC59 /* Main.storyboard */; };
-		3AA426B727A441AA0035CC59 /* Preview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AA426B527A441AA0035CC59 /* Preview.xcdatamodeld */; };
 		3AA426B927A441AE0035CC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426B827A441AE0035CC59 /* Assets.xcassets */; };
 		3AA426BC27A441AE0035CC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426BA27A441AE0035CC59 /* LaunchScreen.storyboard */; };
+		3AA426C427A442880035CC59 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA426C327A442880035CC59 /* Colors.swift */; };
+		3AA426C727A442CD0035CC59 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA426C627A442CD0035CC59 /* Fonts.swift */; };
+		3AA426DF27A443D90035CC59 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426CD27A443D90035CC59 /* Montserrat-LightItalic.ttf */; };
+		3AA426E027A443D90035CC59 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426CE27A443D90035CC59 /* Montserrat-Medium.ttf */; };
+		3AA426E127A443D90035CC59 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426CF27A443D90035CC59 /* Montserrat-BoldItalic.ttf */; };
+		3AA426E227A443D90035CC59 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426D027A443D90035CC59 /* Montserrat-Light.ttf */; };
+		3AA426E327A443D90035CC59 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426D127A443D90035CC59 /* Montserrat-ThinItalic.ttf */; };
+		3AA426E427A443D90035CC59 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426D227A443D90035CC59 /* Montserrat-ExtraLight.ttf */; };
+		3AA426E527A443D90035CC59 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426D327A443D90035CC59 /* Montserrat-Thin.ttf */; };
+		3AA426E627A443D90035CC59 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426D427A443D90035CC59 /* Montserrat-Bold.ttf */; };
+		3AA426E727A443D90035CC59 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426D527A443D90035CC59 /* Montserrat-MediumItalic.ttf */; };
+		3AA426E827A443D90035CC59 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426D627A443D90035CC59 /* Montserrat-BlackItalic.ttf */; };
+		3AA426E927A443D90035CC59 /* Montserrat-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426D727A443D90035CC59 /* Montserrat-RegularItalic.ttf */; };
+		3AA426EA27A443D90035CC59 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426D827A443D90035CC59 /* Montserrat-SemiBold.ttf */; };
+		3AA426EB27A443D90035CC59 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426D927A443D90035CC59 /* Montserrat-ExtraLightItalic.ttf */; };
+		3AA426EC27A443D90035CC59 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426DA27A443D90035CC59 /* Montserrat-ExtraBold.ttf */; };
+		3AA426ED27A443D90035CC59 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426DB27A443D90035CC59 /* Montserrat-Black.ttf */; };
+		3AA426EE27A443D90035CC59 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426DC27A443D90035CC59 /* Montserrat-Regular.ttf */; };
+		3AA426EF27A443D90035CC59 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426DD27A443D90035CC59 /* Montserrat-SemiBoldItalic.ttf */; };
+		3AA426F027A443D90035CC59 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA426DE27A443D90035CC59 /* Montserrat-ExtraBoldItalic.ttf */; };
+		3AA4270027A447450035CC59 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA426F727A447450035CC59 /* NoteTableViewCell.swift */; };
+		3AA4270127A447450035CC59 /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA426F827A447450035CC59 /* NotesViewModel.swift */; };
+		3AA4270227A447450035CC59 /* NotesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA426F927A447450035CC59 /* NotesTableView.swift */; };
+		3AA4270327A447450035CC59 /* NotesTableViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA426FA27A447450035CC59 /* NotesTableViewViewModel.swift */; };
+		3AA4270427A447450035CC59 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA426FB27A447450035CC59 /* FilterView.swift */; };
+		3AA4270527A447450035CC59 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA426FC27A447450035CC59 /* NotesViewController.swift */; };
+		3AA4270627A447450035CC59 /* FilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA426FE27A447450035CC59 /* FilterButton.swift */; };
+		3AA4270727A447450035CC59 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA426FF27A447450035CC59 /* FilterViewController.swift */; };
+		3AA4270D27A44B3D0035CC59 /* SavedNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4270927A44B3D0035CC59 /* SavedNotes.xcdatamodeld */; };
+		3AA4270E27A44B3D0035CC59 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4270B27A44B3D0035CC59 /* NoteModel.swift */; };
+		3AA4270F27A44B3D0035CC59 /* NSAttributedStringTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4270C27A44B3D0035CC59 /* NSAttributedStringTransformer.swift */; };
+		3AA4271927A44C5E0035CC59 /* DateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4271427A44C5E0035CC59 /* DateProvider.swift */; };
+		3AA4271A27A44C5E0035CC59 /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4271527A44C5E0035CC59 /* CoreDataProvider.swift */; };
+		3AA4271C27A44C5E0035CC59 /* ZodiacImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4271727A44C5E0035CC59 /* ZodiacImages.swift */; };
+		3AA4271D27A44C5E0035CC59 /* UDDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4271827A44C5E0035CC59 /* UDDatabase.swift */; };
+		3AA4271F27A44E680035CC59 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4271E27A44E680035CC59 /* MainViewController.swift */; };
+		3AA4272127A454480035CC59 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4272027A454480035CC59 /* UIViewExtension.swift */; };
+		3AA4273B27A455110035CC59 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4272527A455110035CC59 /* NoteViewModel.swift */; };
+		3AA4274127A455110035CC59 /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4272C27A455110035CC59 /* NewNoteViewController.swift */; };
+		3AA4274527A455110035CC59 /* IndicatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4273327A455110035CC59 /* IndicatorsView.swift */; };
+		3AA4274627A455110035CC59 /* ChooseColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4273527A455110035CC59 /* ChooseColorView.swift */; };
+		3AA4274727A455110035CC59 /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4273727A455110035CC59 /* OptionViewController.swift */; };
+		3AA4274827A455110035CC59 /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4273827A455110035CC59 /* OptionsView.swift */; };
+		3AA4274927A455110035CC59 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4273A27A455110035CC59 /* ActivityView.swift */; };
+		3AA4276527A456840035CC59 /* SunMoonCalculator1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4274C27A456840035CC59 /* SunMoonCalculator1.swift */; };
+		3AA4276627A456840035CC59 /* SunModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4274F27A456840035CC59 /* SunModel.swift */; };
+		3AA4276727A456840035CC59 /* MoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4275027A456840035CC59 /* MoonModel.swift */; };
+		3AA4276827A456840035CC59 /* AstroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4275127A456840035CC59 /* AstroModel.swift */; };
+		3AA4276927A456840035CC59 /* Eclipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4275227A456840035CC59 /* Eclipse.swift */; };
+		3AA4276A27A456840035CC59 /* MoonZodiacSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4275327A456840035CC59 /* MoonZodiacSign.swift */; };
+		3AA4276B27A456840035CC59 /* MoonTrajectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4275427A456840035CC59 /* MoonTrajectory.swift */; };
+		3AA4276C27A456840035CC59 /* MoonPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4275527A456840035CC59 /* MoonPhase.swift */; };
+		3AA4276D27A456840035CC59 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4275727A456840035CC59 /* Date+Extension.swift */; };
+		3AA4276E27A456840035CC59 /* ESDateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4275827A456840035CC59 /* ESDateHelper.swift */; };
+		3AA4276F27A456840035CC59 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4275927A456840035CC59 /* Double+Extension.swift */; };
+		3AA4277027A456840035CC59 /* ESString-Extesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4275A27A456840035CC59 /* ESString-Extesion.swift */; };
+		3AA4277127A456840035CC59 /* AstroUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4275B27A456840035CC59 /* AstroUtils.swift */; };
+		3AA4277227A456840035CC59 /* MoonPhaseCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4275D27A456840035CC59 /* MoonPhaseCalculator.swift */; };
+		3AA4277327A456840035CC59 /* MoonTrajectoryCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4275E27A456840035CC59 /* MoonTrajectoryCalculator.swift */; };
+		3AA4277427A456840035CC59 /* MoonRiseSetCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4275F27A456840035CC59 /* MoonRiseSetCalculator.swift */; };
+		3AA4277527A456840035CC59 /* MoonZodiacSignCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4276027A456840035CC59 /* MoonZodiacSignCalculator.swift */; };
+		3AA4277627A456840035CC59 /* SunCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4276127A456840035CC59 /* SunCalculator.swift */; };
+		3AA4277727A456840035CC59 /* MoonAgeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4276227A456840035CC59 /* MoonAgeCalculator.swift */; };
+		3AA4277827A456840035CC59 /* SunMoonCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4276327A456840035CC59 /* SunMoonCalculator.swift */; };
+		3AA4277927A456840035CC59 /* MoonCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4276427A456840035CC59 /* MoonCalc.swift */; };
+		3AA4277B27A458B70035CC59 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4277A27A458B70035CC59 /* DataProvider.swift */; };
+		3AA4277D27A459470035CC59 /* AstroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4277C27A459470035CC59 /* AstroViewModel.swift */; };
+		3AA4277F27A45A7C0035CC59 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4277E27A45A7C0035CC59 /* ButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3AA426A927A441AA0035CC59 /* Preview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Preview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA426AC27A441AA0035CC59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AA426AE27A441AA0035CC59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3AA426B027A441AA0035CC59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3AA426B327A441AA0035CC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3AA426B627A441AA0035CC59 /* Preview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Preview.xcdatamodel; sourceTree = "<group>"; };
 		3AA426B827A441AE0035CC59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AA426BB27A441AE0035CC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AA426BD27A441AE0035CC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AA426C327A442880035CC59 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3AA426C627A442CD0035CC59 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		3AA426CD27A443D90035CC59 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		3AA426CE27A443D90035CC59 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		3AA426CF27A443D90035CC59 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3AA426D027A443D90035CC59 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		3AA426D127A443D90035CC59 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		3AA426D227A443D90035CC59 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3AA426D327A443D90035CC59 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		3AA426D427A443D90035CC59 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		3AA426D527A443D90035CC59 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3AA426D627A443D90035CC59 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3AA426D727A443D90035CC59 /* Montserrat-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-RegularItalic.ttf"; sourceTree = "<group>"; };
+		3AA426D827A443D90035CC59 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		3AA426D927A443D90035CC59 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		3AA426DA27A443D90035CC59 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3AA426DB27A443D90035CC59 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		3AA426DC27A443D90035CC59 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		3AA426DD27A443D90035CC59 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		3AA426DE27A443D90035CC59 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		3AA426F727A447450035CC59 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		3AA426F827A447450035CC59 /* NotesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
+		3AA426F927A447450035CC59 /* NotesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableView.swift; sourceTree = "<group>"; };
+		3AA426FA27A447450035CC59 /* NotesTableViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewViewModel.swift; sourceTree = "<group>"; };
+		3AA426FB27A447450035CC59 /* FilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		3AA426FC27A447450035CC59 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		3AA426FE27A447450035CC59 /* FilterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterButton.swift; sourceTree = "<group>"; };
+		3AA426FF27A447450035CC59 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		3AA4270A27A44B3D0035CC59 /* SavedNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SavedNotes.xcdatamodel; sourceTree = "<group>"; };
+		3AA4270B27A44B3D0035CC59 /* NoteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		3AA4270C27A44B3D0035CC59 /* NSAttributedStringTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringTransformer.swift; sourceTree = "<group>"; };
+		3AA4271427A44C5E0035CC59 /* DateProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateProvider.swift; sourceTree = "<group>"; };
+		3AA4271527A44C5E0035CC59 /* CoreDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
+		3AA4271727A44C5E0035CC59 /* ZodiacImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZodiacImages.swift; sourceTree = "<group>"; };
+		3AA4271827A44C5E0035CC59 /* UDDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDDatabase.swift; sourceTree = "<group>"; };
+		3AA4271E27A44E680035CC59 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3AA4272027A454480035CC59 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		3AA4272527A455110035CC59 /* NoteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		3AA4272C27A455110035CC59 /* NewNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
+		3AA4273327A455110035CC59 /* IndicatorsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorsView.swift; sourceTree = "<group>"; };
+		3AA4273527A455110035CC59 /* ChooseColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseColorView.swift; sourceTree = "<group>"; };
+		3AA4273727A455110035CC59 /* OptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
+		3AA4273827A455110035CC59 /* OptionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
+		3AA4273A27A455110035CC59 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		3AA4274C27A456840035CC59 /* SunMoonCalculator1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunMoonCalculator1.swift; sourceTree = "<group>"; };
+		3AA4274F27A456840035CC59 /* SunModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunModel.swift; sourceTree = "<group>"; };
+		3AA4275027A456840035CC59 /* MoonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonModel.swift; sourceTree = "<group>"; };
+		3AA4275127A456840035CC59 /* AstroModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstroModel.swift; sourceTree = "<group>"; };
+		3AA4275227A456840035CC59 /* Eclipse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eclipse.swift; sourceTree = "<group>"; };
+		3AA4275327A456840035CC59 /* MoonZodiacSign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonZodiacSign.swift; sourceTree = "<group>"; };
+		3AA4275427A456840035CC59 /* MoonTrajectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonTrajectory.swift; sourceTree = "<group>"; };
+		3AA4275527A456840035CC59 /* MoonPhase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonPhase.swift; sourceTree = "<group>"; };
+		3AA4275727A456840035CC59 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		3AA4275827A456840035CC59 /* ESDateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESDateHelper.swift; sourceTree = "<group>"; };
+		3AA4275927A456840035CC59 /* Double+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		3AA4275A27A456840035CC59 /* ESString-Extesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ESString-Extesion.swift"; sourceTree = "<group>"; };
+		3AA4275B27A456840035CC59 /* AstroUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstroUtils.swift; sourceTree = "<group>"; };
+		3AA4275D27A456840035CC59 /* MoonPhaseCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonPhaseCalculator.swift; sourceTree = "<group>"; };
+		3AA4275E27A456840035CC59 /* MoonTrajectoryCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonTrajectoryCalculator.swift; sourceTree = "<group>"; };
+		3AA4275F27A456840035CC59 /* MoonRiseSetCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonRiseSetCalculator.swift; sourceTree = "<group>"; };
+		3AA4276027A456840035CC59 /* MoonZodiacSignCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonZodiacSignCalculator.swift; sourceTree = "<group>"; };
+		3AA4276127A456840035CC59 /* SunCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunCalculator.swift; sourceTree = "<group>"; };
+		3AA4276227A456840035CC59 /* MoonAgeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonAgeCalculator.swift; sourceTree = "<group>"; };
+		3AA4276327A456840035CC59 /* SunMoonCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunMoonCalculator.swift; sourceTree = "<group>"; };
+		3AA4276427A456840035CC59 /* MoonCalc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonCalc.swift; sourceTree = "<group>"; };
+		3AA4277A27A458B70035CC59 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		3AA4277C27A459470035CC59 /* AstroViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstroViewModel.swift; sourceTree = "<group>"; };
+		3AA4277E27A45A7C0035CC59 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +188,273 @@
 		3AA426AB27A441AA0035CC59 /* Preview */ = {
 			isa = PBXGroup;
 			children = (
-				3AA426AC27A441AA0035CC59 /* AppDelegate.swift */,
-				3AA426AE27A441AA0035CC59 /* SceneDelegate.swift */,
-				3AA426B027A441AA0035CC59 /* ViewController.swift */,
-				3AA426B227A441AA0035CC59 /* Main.storyboard */,
-				3AA426B827A441AE0035CC59 /* Assets.xcassets */,
-				3AA426BA27A441AE0035CC59 /* LaunchScreen.storyboard */,
+				3AA4272227A4544B0035CC59 /* Extensions */,
+				3AA426C827A443460035CC59 /* App */,
+				3AA426C927A443570035CC59 /* Core */,
+				3AA4271327A44C5D0035CC59 /* Data providers */,
+				3AA426C527A4429D0035CC59 /* Supporting files */,
+				3AA426CA27A443D90035CC59 /* Resources */,
 				3AA426BD27A441AE0035CC59 /* Info.plist */,
-				3AA426B527A441AA0035CC59 /* Preview.xcdatamodeld */,
+				3AA426BA27A441AE0035CC59 /* LaunchScreen.storyboard */,
 			);
 			path = Preview;
+			sourceTree = "<group>";
+		};
+		3AA426C527A4429D0035CC59 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				3AA426B827A441AE0035CC59 /* Assets.xcassets */,
+				3AA4270C27A44B3D0035CC59 /* NSAttributedStringTransformer.swift */,
+				3AA426C327A442880035CC59 /* Colors.swift */,
+				3AA426C627A442CD0035CC59 /* Fonts.swift */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		3AA426C827A443460035CC59 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3AA426AC27A441AA0035CC59 /* AppDelegate.swift */,
+				3AA426AE27A441AA0035CC59 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3AA426C927A443570035CC59 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4271E27A44E680035CC59 /* MainViewController.swift */,
+				3AA4270827A44B3D0035CC59 /* Model */,
+				3AA4272427A455110035CC59 /* ViewModel */,
+				3AA4274A27A455240035CC59 /* Pages */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3AA426CA27A443D90035CC59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3AA426CB27A443D90035CC59 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3AA426CB27A443D90035CC59 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3AA426CC27A443D90035CC59 /* Montserrat */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3AA426CC27A443D90035CC59 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				3AA426CD27A443D90035CC59 /* Montserrat-LightItalic.ttf */,
+				3AA426CE27A443D90035CC59 /* Montserrat-Medium.ttf */,
+				3AA426CF27A443D90035CC59 /* Montserrat-BoldItalic.ttf */,
+				3AA426D027A443D90035CC59 /* Montserrat-Light.ttf */,
+				3AA426D127A443D90035CC59 /* Montserrat-ThinItalic.ttf */,
+				3AA426D227A443D90035CC59 /* Montserrat-ExtraLight.ttf */,
+				3AA426D327A443D90035CC59 /* Montserrat-Thin.ttf */,
+				3AA426D427A443D90035CC59 /* Montserrat-Bold.ttf */,
+				3AA426D527A443D90035CC59 /* Montserrat-MediumItalic.ttf */,
+				3AA426D627A443D90035CC59 /* Montserrat-BlackItalic.ttf */,
+				3AA426D727A443D90035CC59 /* Montserrat-RegularItalic.ttf */,
+				3AA426D827A443D90035CC59 /* Montserrat-SemiBold.ttf */,
+				3AA426D927A443D90035CC59 /* Montserrat-ExtraLightItalic.ttf */,
+				3AA426DA27A443D90035CC59 /* Montserrat-ExtraBold.ttf */,
+				3AA426DB27A443D90035CC59 /* Montserrat-Black.ttf */,
+				3AA426DC27A443D90035CC59 /* Montserrat-Regular.ttf */,
+				3AA426DD27A443D90035CC59 /* Montserrat-SemiBoldItalic.ttf */,
+				3AA426DE27A443D90035CC59 /* Montserrat-ExtraBoldItalic.ttf */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		3AA426F527A447450035CC59 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				3AA426FC27A447450035CC59 /* NotesViewController.swift */,
+				3AA426FB27A447450035CC59 /* FilterView.swift */,
+				3AA426F627A447450035CC59 /* TableView */,
+				3AA426FD27A447450035CC59 /* Filter */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		3AA426F627A447450035CC59 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3AA426F827A447450035CC59 /* NotesViewModel.swift */,
+				3AA426FA27A447450035CC59 /* NotesTableViewViewModel.swift */,
+				3AA426F727A447450035CC59 /* NoteTableViewCell.swift */,
+				3AA426F927A447450035CC59 /* NotesTableView.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		3AA426FD27A447450035CC59 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				3AA426FE27A447450035CC59 /* FilterButton.swift */,
+				3AA426FF27A447450035CC59 /* FilterViewController.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		3AA4270827A44B3D0035CC59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4270927A44B3D0035CC59 /* SavedNotes.xcdatamodeld */,
+				3AA4270B27A44B3D0035CC59 /* NoteModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AA4271327A44C5D0035CC59 /* Data providers */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4274B27A456840035CC59 /* Calculators */,
+				3AA4271427A44C5E0035CC59 /* DateProvider.swift */,
+				3AA4277A27A458B70035CC59 /* DataProvider.swift */,
+				3AA4271527A44C5E0035CC59 /* CoreDataProvider.swift */,
+				3AA4271727A44C5E0035CC59 /* ZodiacImages.swift */,
+				3AA4271827A44C5E0035CC59 /* UDDatabase.swift */,
+			);
+			path = "Data providers";
+			sourceTree = "<group>";
+		};
+		3AA4272227A4544B0035CC59 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4272027A454480035CC59 /* UIViewExtension.swift */,
+				3AA4277E27A45A7C0035CC59 /* ButtonExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3AA4272327A455110035CC59 /* NewNote */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4272C27A455110035CC59 /* NewNoteViewController.swift */,
+				3AA4273227A455110035CC59 /* Views */,
+			);
+			path = NewNote;
+			sourceTree = "<group>";
+		};
+		3AA4272427A455110035CC59 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4277C27A459470035CC59 /* AstroViewModel.swift */,
+				3AA4272527A455110035CC59 /* NoteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3AA4273227A455110035CC59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4273327A455110035CC59 /* IndicatorsView.swift */,
+				3AA4273427A455110035CC59 /* ChooseColorView */,
+				3AA4273627A455110035CC59 /* OptionView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3AA4273427A455110035CC59 /* ChooseColorView */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4273527A455110035CC59 /* ChooseColorView.swift */,
+			);
+			path = ChooseColorView;
+			sourceTree = "<group>";
+		};
+		3AA4273627A455110035CC59 /* OptionView */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4273727A455110035CC59 /* OptionViewController.swift */,
+				3AA4273827A455110035CC59 /* OptionsView.swift */,
+				3AA4273927A455110035CC59 /* View */,
+			);
+			path = OptionView;
+			sourceTree = "<group>";
+		};
+		3AA4273927A455110035CC59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4273A27A455110035CC59 /* ActivityView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AA4274A27A455240035CC59 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3AA426F527A447450035CC59 /* Notes */,
+				3AA4272327A455110035CC59 /* NewNote */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		3AA4274B27A456840035CC59 /* Calculators */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4274C27A456840035CC59 /* SunMoonCalculator1.swift */,
+				3AA4274D27A456840035CC59 /* MoonCalc */,
+			);
+			path = Calculators;
+			sourceTree = "<group>";
+		};
+		3AA4274D27A456840035CC59 /* MoonCalc */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4274E27A456840035CC59 /* Models */,
+				3AA4275627A456840035CC59 /* Extensions */,
+				3AA4275B27A456840035CC59 /* AstroUtils.swift */,
+				3AA4275C27A456840035CC59 /* Calculators */,
+				3AA4276427A456840035CC59 /* MoonCalc.swift */,
+			);
+			path = MoonCalc;
+			sourceTree = "<group>";
+		};
+		3AA4274E27A456840035CC59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4274F27A456840035CC59 /* SunModel.swift */,
+				3AA4275027A456840035CC59 /* MoonModel.swift */,
+				3AA4275127A456840035CC59 /* AstroModel.swift */,
+				3AA4275227A456840035CC59 /* Eclipse.swift */,
+				3AA4275327A456840035CC59 /* MoonZodiacSign.swift */,
+				3AA4275427A456840035CC59 /* MoonTrajectory.swift */,
+				3AA4275527A456840035CC59 /* MoonPhase.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3AA4275627A456840035CC59 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4275727A456840035CC59 /* Date+Extension.swift */,
+				3AA4275827A456840035CC59 /* ESDateHelper.swift */,
+				3AA4275927A456840035CC59 /* Double+Extension.swift */,
+				3AA4275A27A456840035CC59 /* ESString-Extesion.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3AA4275C27A456840035CC59 /* Calculators */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4275D27A456840035CC59 /* MoonPhaseCalculator.swift */,
+				3AA4275E27A456840035CC59 /* MoonTrajectoryCalculator.swift */,
+				3AA4275F27A456840035CC59 /* MoonRiseSetCalculator.swift */,
+				3AA4276027A456840035CC59 /* MoonZodiacSignCalculator.swift */,
+				3AA4276127A456840035CC59 /* SunCalculator.swift */,
+				3AA4276227A456840035CC59 /* MoonAgeCalculator.swift */,
+				3AA4276327A456840035CC59 /* SunMoonCalculator.swift */,
+			);
+			path = Calculators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +515,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA426EF27A443D90035CC59 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				3AA426EE27A443D90035CC59 /* Montserrat-Regular.ttf in Resources */,
+				3AA426E927A443D90035CC59 /* Montserrat-RegularItalic.ttf in Resources */,
+				3AA426ED27A443D90035CC59 /* Montserrat-Black.ttf in Resources */,
+				3AA426E727A443D90035CC59 /* Montserrat-MediumItalic.ttf in Resources */,
+				3AA426EB27A443D90035CC59 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				3AA426E627A443D90035CC59 /* Montserrat-Bold.ttf in Resources */,
+				3AA426E227A443D90035CC59 /* Montserrat-Light.ttf in Resources */,
+				3AA426EC27A443D90035CC59 /* Montserrat-ExtraBold.ttf in Resources */,
+				3AA426E527A443D90035CC59 /* Montserrat-Thin.ttf in Resources */,
+				3AA426E327A443D90035CC59 /* Montserrat-ThinItalic.ttf in Resources */,
 				3AA426BC27A441AE0035CC59 /* LaunchScreen.storyboard in Resources */,
 				3AA426B927A441AE0035CC59 /* Assets.xcassets in Resources */,
-				3AA426B427A441AA0035CC59 /* Main.storyboard in Resources */,
+				3AA426E027A443D90035CC59 /* Montserrat-Medium.ttf in Resources */,
+				3AA426E427A443D90035CC59 /* Montserrat-ExtraLight.ttf in Resources */,
+				3AA426EA27A443D90035CC59 /* Montserrat-SemiBold.ttf in Resources */,
+				3AA426E827A443D90035CC59 /* Montserrat-BlackItalic.ttf in Resources */,
+				3AA426F027A443D90035CC59 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				3AA426E127A443D90035CC59 /* Montserrat-BoldItalic.ttf in Resources */,
+				3AA426DF27A443D90035CC59 /* Montserrat-LightItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +545,64 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AA426B127A441AA0035CC59 /* ViewController.swift in Sources */,
+				3AA4271F27A44E680035CC59 /* MainViewController.swift in Sources */,
+				3AA4277027A456840035CC59 /* ESString-Extesion.swift in Sources */,
+				3AA426C427A442880035CC59 /* Colors.swift in Sources */,
+				3AA4272127A454480035CC59 /* UIViewExtension.swift in Sources */,
+				3AA4276C27A456840035CC59 /* MoonPhase.swift in Sources */,
+				3AA4276627A456840035CC59 /* SunModel.swift in Sources */,
+				3AA4274827A455110035CC59 /* OptionsView.swift in Sources */,
+				3AA4277927A456840035CC59 /* MoonCalc.swift in Sources */,
+				3AA4276A27A456840035CC59 /* MoonZodiacSign.swift in Sources */,
+				3AA4270127A447450035CC59 /* NotesViewModel.swift in Sources */,
+				3AA4274127A455110035CC59 /* NewNoteViewController.swift in Sources */,
+				3AA4276D27A456840035CC59 /* Date+Extension.swift in Sources */,
+				3AA4276927A456840035CC59 /* Eclipse.swift in Sources */,
+				3AA4270527A447450035CC59 /* NotesViewController.swift in Sources */,
+				3AA4274727A455110035CC59 /* OptionViewController.swift in Sources */,
+				3AA4274927A455110035CC59 /* ActivityView.swift in Sources */,
+				3AA4276F27A456840035CC59 /* Double+Extension.swift in Sources */,
 				3AA426AD27A441AA0035CC59 /* AppDelegate.swift in Sources */,
-				3AA426B727A441AA0035CC59 /* Preview.xcdatamodeld in Sources */,
+				3AA4277D27A459470035CC59 /* AstroViewModel.swift in Sources */,
+				3AA4277327A456840035CC59 /* MoonTrajectoryCalculator.swift in Sources */,
+				3AA4270227A447450035CC59 /* NotesTableView.swift in Sources */,
+				3AA4271A27A44C5E0035CC59 /* CoreDataProvider.swift in Sources */,
+				3AA4277227A456840035CC59 /* MoonPhaseCalculator.swift in Sources */,
+				3AA426C727A442CD0035CC59 /* Fonts.swift in Sources */,
+				3AA4270727A447450035CC59 /* FilterViewController.swift in Sources */,
+				3AA4277627A456840035CC59 /* SunCalculator.swift in Sources */,
+				3AA4277827A456840035CC59 /* SunMoonCalculator.swift in Sources */,
+				3AA4276827A456840035CC59 /* AstroModel.swift in Sources */,
+				3AA4271C27A44C5E0035CC59 /* ZodiacImages.swift in Sources */,
+				3AA4277127A456840035CC59 /* AstroUtils.swift in Sources */,
+				3AA4276527A456840035CC59 /* SunMoonCalculator1.swift in Sources */,
+				3AA4277427A456840035CC59 /* MoonRiseSetCalculator.swift in Sources */,
+				3AA4271927A44C5E0035CC59 /* DateProvider.swift in Sources */,
+				3AA4270627A447450035CC59 /* FilterButton.swift in Sources */,
+				3AA4270F27A44B3D0035CC59 /* NSAttributedStringTransformer.swift in Sources */,
+				3AA4270D27A44B3D0035CC59 /* SavedNotes.xcdatamodeld in Sources */,
+				3AA4270E27A44B3D0035CC59 /* NoteModel.swift in Sources */,
+				3AA4277F27A45A7C0035CC59 /* ButtonExtension.swift in Sources */,
 				3AA426AF27A441AA0035CC59 /* SceneDelegate.swift in Sources */,
+				3AA4276E27A456840035CC59 /* ESDateHelper.swift in Sources */,
+				3AA4276727A456840035CC59 /* MoonModel.swift in Sources */,
+				3AA4274527A455110035CC59 /* IndicatorsView.swift in Sources */,
+				3AA4274627A455110035CC59 /* ChooseColorView.swift in Sources */,
+				3AA4270027A447450035CC59 /* NoteTableViewCell.swift in Sources */,
+				3AA4277B27A458B70035CC59 /* DataProvider.swift in Sources */,
+				3AA4273B27A455110035CC59 /* NoteViewModel.swift in Sources */,
+				3AA4277527A456840035CC59 /* MoonZodiacSignCalculator.swift in Sources */,
+				3AA4270427A447450035CC59 /* FilterView.swift in Sources */,
+				3AA4270327A447450035CC59 /* NotesTableViewViewModel.swift in Sources */,
+				3AA4271D27A44C5E0035CC59 /* UDDatabase.swift in Sources */,
+				3AA4277727A456840035CC59 /* MoonAgeCalculator.swift in Sources */,
+				3AA4276B27A456840035CC59 /* MoonTrajectory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3AA426B227A441AA0035CC59 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AA426B327A441AA0035CC59 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3AA426BA27A441AE0035CC59 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,11 +737,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TD5J59L659;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Preview/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,7 +755,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,11 +766,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TD5J59L659;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Preview/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +784,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -364,13 +812,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		3AA426B527A441AA0035CC59 /* Preview.xcdatamodeld */ = {
+		3AA4270927A44B3D0035CC59 /* SavedNotes.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				3AA426B627A441AA0035CC59 /* Preview.xcdatamodel */,
+				3AA4270A27A44B3D0035CC59 /* SavedNotes.xcdatamodel */,
 			);
-			currentVersion = 3AA426B627A441AA0035CC59 /* Preview.xcdatamodel */;
-			path = Preview.xcdatamodeld;
+			currentVersion = 3AA4270A27A44B3D0035CC59 /* SavedNotes.xcdatamodel */;
+			path = SavedNotes.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
